@@ -10,7 +10,6 @@ public class RollingDice {
         String value;
         System.out.println("Can you roll doubles?");
         do {
-
             System.out.print("Press enter to roll the dice:");
             computerKeyboardInput.nextLine();
             die1 = rollDie();
